@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -43,7 +42,7 @@ export default function RootLayout({
 
       <body>
         <main>
-          <nav className="navbar navbar-expand-lg">
+          <nav className="navbar navbar-expand-lg sticky-wrapper">
             <div className="container">
               <a className="navbar-brand" href="index.html">
                 <i className="navbar-brand-icon bi-book me-2"></i>

@@ -4,6 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+      .my-div-img {
+        width: 700px;
+        height: auto;
+        aspect-ratio: 1/0.5;
+        background-image: url("/public/imgV2/test/businessman-700.jpg");
+      }
+
+      @media screen and (max-width: 600px) {
+        .my-div-img {
+          width: 300px;
+          background-image: url("/public/imgV2/test/businessman-300.jpg");
+        }
+      }
+    </style>
   </head>
   <body>
     <picture>
@@ -19,5 +35,7 @@
         alt="Businessman"
       />
     </picture>
+
+    <div class="my-div-img"></div>
   </body>
 </html>

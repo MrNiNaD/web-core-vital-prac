@@ -161,6 +161,10 @@ export default function RootLayout({
               <div className="row">
                 <div className="col-lg-6 col-12">
                   <picture>
+                    <source
+                      media="(max-width: 500px)"
+                      srcSet="imgV2/table-content/tablet-screen-540.jpg"
+                    />
                     <img
                       src="images/tablet-screen-contents.jpg"
                       className="img-fluid"

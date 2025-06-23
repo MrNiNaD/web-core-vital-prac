@@ -314,6 +314,10 @@ export default function RootLayout({
 
                         <div className="col-lg-6 col-12 mb-3">
                           <picture>
+                          <source
+                              media="(max-width: 500px)"
+                              srcSet="imgV2/businessman-table/businessman-sitting-416.jpg"
+                            />
                             <img
                               src="images/businessman-sitting-by-table-cafe.jpg"
                               className="scrollspy-example-item-image img-fluid"

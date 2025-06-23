@@ -90,6 +90,10 @@ export default function RootLayout({
                 <div className="col-lg-8 col-12">
                   <div className="avatar-group d-flex flex-wrap align-items-center">
                     <picture>
+                      <source
+                        media="(max-width: 500px)"
+                        srcSet="imgV2/avatar1/portrait-beautiful-young-woman-standing-grey-wall-52.jpg"
+                      />
                       <img
                         src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
                         className="img-fluid avatar-image"
@@ -98,6 +102,10 @@ export default function RootLayout({
                     </picture>
 
                     <picture>
+                      <source
+                        media="(max-width: 500px)"
+                        srcSet="imgV2/avatar2/portrait-young-redhead-bearded-male-52.jpg"
+                      />
                       <img
                         src="images/avatar/portrait-young-redhead-bearded-male.jpg"
                         className="img-fluid avatar-image avatar-image-left"
@@ -106,6 +114,10 @@ export default function RootLayout({
                     </picture>
 
                     <picture>
+                      <source
+                        media="(max-width: 500px)"
+                        srcSet="imgV2/avatar3/pretty-blonde-woman-52.jpg"
+                      />
                       <img
                         src="images/avatar/pretty-blonde-woman.jpg"
                         className="img-fluid avatar-image avatar-image-left"
@@ -114,6 +126,10 @@ export default function RootLayout({
                     </picture>
 
                     <picture>
+                      <source
+                        media="(max-width: 500px)"
+                        srcSet="imgV2/avatar4/studio-portrait-emotional-happy-funny-smiling-boyfriend-52.jpg"
+                      />
                       <img
                         src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.jpg"
                         className="img-fluid avatar-image avatar-image-left"

@@ -77,6 +77,8 @@ export default function RootLayout({
                       src="images/education-online-books.png"
                       className="hero-image img-fluid"
                       alt="education online books"
+                      loading="eager"
+                      fetchPriority="high"
                     />
                   </picture>
                 </div>
@@ -98,6 +100,8 @@ export default function RootLayout({
                         src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
                         className="img-fluid avatar-image"
                         alt=""
+                        loading="eager"
+                      fetchPriority="high"
                       />
                     </picture>
 
@@ -110,6 +114,8 @@ export default function RootLayout({
                         src="images/avatar/portrait-young-redhead-bearded-male.jpg"
                         className="img-fluid avatar-image avatar-image-left"
                         alt=""
+                        loading="eager"
+                      fetchPriority="high"
                       />
                     </picture>
 
@@ -122,6 +128,8 @@ export default function RootLayout({
                         src="images/avatar/pretty-blonde-woman.jpg"
                         className="img-fluid avatar-image avatar-image-left"
                         alt=""
+                        loading="eager"
+                      fetchPriority="high"
                       />
                     </picture>
 
@@ -134,6 +142,8 @@ export default function RootLayout({
                         src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.jpg"
                         className="img-fluid avatar-image avatar-image-left"
                         alt=""
+                        loading="eager"
+                      fetchPriority="high"
                       />
                     </picture>
 
@@ -169,6 +179,7 @@ export default function RootLayout({
                       src="images/tablet-screen-contents.jpg"
                       className="img-fluid"
                       alt=""
+                      loading="lazy"
                     />
                   </picture>
                 </div>
@@ -308,6 +319,7 @@ export default function RootLayout({
                               src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
                               className="scrollspy-example-item-image img-fluid"
                               alt=""
+                              loading="lazy"
                             />
                           </picture>
                         </div>
@@ -322,6 +334,7 @@ export default function RootLayout({
                               src="images/businessman-sitting-by-table-cafe.jpg"
                               className="scrollspy-example-item-image img-fluid"
                               alt=""
+                              loading="lazy"
                             />
                           </picture>
                         </div>
@@ -372,6 +385,7 @@ export default function RootLayout({
                               src="images/tablet-screen-contents.jpg"
                               className="img-fluid"
                               alt=""
+                              loading="lazy"
                             />
                           </picture>
                         </div>
@@ -418,6 +432,7 @@ export default function RootLayout({
                           src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
                           className="scrollspy-example-item-image img-fluid mb-3"
                           alt=""
+                          loading="lazy"
                         />
                       </picture>
 
@@ -477,6 +492,7 @@ export default function RootLayout({
                       src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
                       className="author-image img-fluid"
                       alt=""
+                      loading="lazy"
                     />
                   </picture>
                 </div>
@@ -522,6 +538,7 @@ export default function RootLayout({
                           src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
                           className="img-fluid avatar-image"
                           alt=""
+                          loading="lazy"
                         />
                       </picture>
 
@@ -564,6 +581,7 @@ export default function RootLayout({
                           src="images/avatar/portrait-young-redhead-bearded-male.jpg"
                           className="img-fluid avatar-image avatar-image-left"
                           alt=""
+                          loading="lazy"
                         />
                       </picture>
 
@@ -606,6 +624,7 @@ export default function RootLayout({
                           src="images/avatar/pretty-blonde-woman.jpg"
                           className="img-fluid avatar-image"
                           alt=""
+                          loading="lazy"
                         />
                       </picture>
 

@@ -71,11 +71,13 @@ export default function RootLayout({
                 </div>
 
                 <div className="hero-image-wrap col-lg-6 col-12 mt-3 mt-lg-0">
-                  <img
-                    src="images/education-online-books.png"
-                    className="hero-image img-fluid"
-                    alt="education online books"
-                  />
+                  <picture>
+                    <img
+                      src="images/education-online-books.png"
+                      className="hero-image img-fluid"
+                      alt="education online books"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>
@@ -86,29 +88,37 @@ export default function RootLayout({
               <div className="row">
                 <div className="col-lg-8 col-12">
                   <div className="avatar-group d-flex flex-wrap align-items-center">
-                    <img
-                      src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
-                      className="img-fluid avatar-image"
-                      alt=""
-                    />
+                    <picture>
+                      <img
+                        src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
+                        className="img-fluid avatar-image"
+                        alt=""
+                      />
+                    </picture>
 
-                    <img
-                      src="images/avatar/portrait-young-redhead-bearded-male.jpg"
-                      className="img-fluid avatar-image avatar-image-left"
-                      alt=""
-                    />
+                    <picture>
+                      <img
+                        src="images/avatar/portrait-young-redhead-bearded-male.jpg"
+                        className="img-fluid avatar-image avatar-image-left"
+                        alt=""
+                      />
+                    </picture>
 
-                    <img
-                      src="images/avatar/pretty-blonde-woman.jpg"
-                      className="img-fluid avatar-image avatar-image-left"
-                      alt=""
-                    />
+                    <picture>
+                      <img
+                        src="images/avatar/pretty-blonde-woman.jpg"
+                        className="img-fluid avatar-image avatar-image-left"
+                        alt=""
+                      />
+                    </picture>
 
-                    <img
-                      src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.jpg"
-                      className="img-fluid avatar-image avatar-image-left"
-                      alt=""
-                    />
+                    <picture>
+                      <img
+                        src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.jpg"
+                        className="img-fluid avatar-image avatar-image-left"
+                        alt=""
+                      />
+                    </picture>
 
                     <div className="reviews-group mt-3 mt-lg-0">
                       <strong>4.5</strong>
@@ -133,11 +143,13 @@ export default function RootLayout({
             <div className="container">
               <div className="row">
                 <div className="col-lg-6 col-12">
-                  <img
-                    src="images/tablet-screen-contents.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
+                  <picture>
+                    <img
+                      src="images/tablet-screen-contents.jpg"
+                      className="img-fluid"
+                      alt=""
+                    />
+                  </picture>
                 </div>
 
                 <div className="col-lg-6 col-12">
@@ -266,19 +278,23 @@ export default function RootLayout({
 
                       <div className="row">
                         <div className="col-lg-6 col-12 mb-3">
-                          <img
-                            src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
-                            className="scrollspy-example-item-image img-fluid"
-                            alt=""
-                          />
+                          <picture>
+                            <img
+                              src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
+                              className="scrollspy-example-item-image img-fluid"
+                              alt=""
+                            />
+                          </picture>
                         </div>
 
                         <div className="col-lg-6 col-12 mb-3">
-                          <img
-                            src="images/businessman-sitting-by-table-cafe.jpg"
-                            className="scrollspy-example-item-image img-fluid"
-                            alt=""
-                          />
+                          <picture>
+                            <img
+                              src="images/businessman-sitting-by-table-cafe.jpg"
+                              className="scrollspy-example-item-image img-fluid"
+                              alt=""
+                            />
+                          </picture>
                         </div>
                       </div>
 
@@ -318,11 +334,13 @@ export default function RootLayout({
 
                       <div className="row align-items-center">
                         <div className="col-lg-6 col-12">
-                          <img
-                            src="images/tablet-screen-contents.jpg"
-                            className="img-fluid"
-                            alt=""
-                          />
+                          <picture>
+                            <img
+                              src="images/tablet-screen-contents.jpg"
+                              className="img-fluid"
+                              alt=""
+                            />
+                          </picture>
                         </div>
 
                         <div className="col-lg-6 col-12">
@@ -358,11 +376,13 @@ export default function RootLayout({
                         contact TemplateMo for more information.
                       </p>
 
-                      <img
-                        src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
-                        className="scrollspy-example-item-image img-fluid mb-3"
-                        alt=""
-                      />
+                      <picture>
+                        <img
+                          src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
+                          className="scrollspy-example-item-image img-fluid mb-3"
+                          alt=""
+                        />
+                      </picture>
 
                       <p>
                         You may want to contact us for more information about
@@ -411,11 +431,13 @@ export default function RootLayout({
             <div className="container">
               <div className="row">
                 <div className="col-lg-6 col-12">
-                  <img
-                    src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
-                    className="author-image img-fluid"
-                    alt=""
-                  />
+                  <picture>
+                    <img
+                      src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
+                      className="author-image img-fluid"
+                      alt=""
+                    />
+                  </picture>
                 </div>
 
                 <div className="col-lg-6 col-12 mt-5 mt-lg-0">
@@ -450,6 +472,7 @@ export default function RootLayout({
                 <div className="col-lg-4 col-12">
                   <div className="custom-block d-flex flex-wrap">
                     <div className="custom-block-image-wrap d-flex flex-column">
+                      <picture></picture>
                       <img
                         src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
                         className="img-fluid avatar-image"
@@ -486,11 +509,13 @@ export default function RootLayout({
                 <div className="col-lg-4 col-12 my-5 my-lg-0">
                   <div className="custom-block d-flex flex-wrap">
                     <div className="custom-block-image-wrap d-flex flex-column">
-                      <img
-                        src="images/avatar/portrait-young-redhead-bearded-male.jpg"
-                        className="img-fluid avatar-image avatar-image-left"
-                        alt=""
-                      />
+                      <picture>
+                        <img
+                          src="images/avatar/portrait-young-redhead-bearded-male.jpg"
+                          className="img-fluid avatar-image avatar-image-left"
+                          alt=""
+                        />
+                      </picture>
 
                       <div className="text-center mt-3">
                         <span className="text-white">John</span>
@@ -522,11 +547,13 @@ export default function RootLayout({
                 <div className="col-lg-4 col-12">
                   <div className="custom-block d-flex flex-wrap">
                     <div className="custom-block-image-wrap d-flex flex-column">
-                      <img
-                        src="images/avatar/pretty-blonde-woman.jpg"
-                        className="img-fluid avatar-image"
-                        alt=""
-                      />
+                      <picture>
+                        <img
+                          src="images/avatar/pretty-blonde-woman.jpg"
+                          className="img-fluid avatar-image"
+                          alt=""
+                        />
+                      </picture>
 
                       <div className="text-center mt-3">
                         <span className="text-white">Candy</span>

@@ -314,7 +314,7 @@ export default function RootLayout({
 
                         <div className="col-lg-6 col-12 mb-3">
                           <picture>
-                          <source
+                            <source
                               media="(max-width: 500px)"
                               srcSet="imgV2/businessman-table/businessman-sitting-416.jpg"
                             />
@@ -364,6 +364,10 @@ export default function RootLayout({
                       <div className="row align-items-center">
                         <div className="col-lg-6 col-12">
                           <picture>
+                            <source
+                              media="(max-width: 500px)"
+                              srcSet="imgV2/table-content/tablet-screen-540.jpg"
+                            />
                             <img
                               src="images/tablet-screen-contents.jpg"
                               className="img-fluid"
@@ -406,6 +410,10 @@ export default function RootLayout({
                       </p>
 
                       <picture>
+                        <source
+                          media="(max-width: 500px)"
+                          srcSet="imgV2/sitting-smiling/smiling-sitting-416.jpg"
+                        />
                         <img
                           src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
                           className="scrollspy-example-item-image img-fluid mb-3"
@@ -461,6 +469,10 @@ export default function RootLayout({
               <div className="row">
                 <div className="col-lg-6 col-12">
                   <picture>
+                    <source
+                      media="(max-width: 500px)"
+                      srcSet="imgV2/sitting-smiling/smiling-sitting-416.jpg"
+                    />
                     <img
                       src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
                       className="author-image img-fluid"
@@ -502,6 +514,10 @@ export default function RootLayout({
                   <div className="custom-block d-flex flex-wrap">
                     <div className="custom-block-image-wrap d-flex flex-column">
                       <picture className="bottom-avatar">
+                        <source
+                          media="(max-width: 500px)"
+                          srcSet="imgV2/avatar1/portrait-beautiful-young-woman-standing-grey-wall-52.jpg"
+                        />
                         <img
                           src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
                           className="img-fluid avatar-image"
@@ -540,6 +556,10 @@ export default function RootLayout({
                   <div className="custom-block d-flex flex-wrap">
                     <div className="custom-block-image-wrap d-flex flex-column">
                       <picture className="bottom-avatar">
+                        <source
+                          media="(max-width: 500px)"
+                          srcSet="imgV2/avatar2/portrait-young-redhead-bearded-male-52.jpg"
+                        />
                         <img
                           src="images/avatar/portrait-young-redhead-bearded-male.jpg"
                           className="img-fluid avatar-image avatar-image-left"
@@ -578,6 +598,10 @@ export default function RootLayout({
                   <div className="custom-block d-flex flex-wrap">
                     <div className="custom-block-image-wrap d-flex flex-column">
                       <picture className="bottom-avatar">
+                        <source
+                          media="(max-width: 500px)"
+                          srcSet="imgV2/avatar3/pretty-blonde-woman-52.jpg"
+                        />
                         <img
                           src="images/avatar/pretty-blonde-woman.jpg"
                           className="img-fluid avatar-image"

@@ -497,12 +497,13 @@ export default function RootLayout({
                 <div className="col-lg-4 col-12">
                   <div className="custom-block d-flex flex-wrap">
                     <div className="custom-block-image-wrap d-flex flex-column">
-                      <picture></picture>
-                      <img
-                        src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
-                        className="img-fluid avatar-image"
-                        alt=""
-                      />
+                      <picture className="bottom-avatar">
+                        <img
+                          src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
+                          className="img-fluid avatar-image"
+                          alt=""
+                        />
+                      </picture>
 
                       <div className="text-center mt-3">
                         <span className="text-white">Sandy</span>
@@ -534,7 +535,7 @@ export default function RootLayout({
                 <div className="col-lg-4 col-12 my-5 my-lg-0">
                   <div className="custom-block d-flex flex-wrap">
                     <div className="custom-block-image-wrap d-flex flex-column">
-                      <picture>
+                      <picture className="bottom-avatar">
                         <img
                           src="images/avatar/portrait-young-redhead-bearded-male.jpg"
                           className="img-fluid avatar-image avatar-image-left"
@@ -572,7 +573,7 @@ export default function RootLayout({
                 <div className="col-lg-4 col-12">
                   <div className="custom-block d-flex flex-wrap">
                     <div className="custom-block-image-wrap d-flex flex-column">
-                      <picture>
+                      <picture className="bottom-avatar">
                         <img
                           src="images/avatar/pretty-blonde-woman.jpg"
                           className="img-fluid avatar-image"

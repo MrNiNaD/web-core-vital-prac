@@ -180,6 +180,7 @@ export default function RootLayout({
                       className="img-fluid"
                       alt=""
                       loading="lazy"
+                      fetchPriority="low"
                     />
                   </picture>
                 </div>
@@ -320,6 +321,7 @@ export default function RootLayout({
                               className="scrollspy-example-item-image img-fluid"
                               alt=""
                               loading="lazy"
+                              fetchPriority="low"
                             />
                           </picture>
                         </div>
@@ -335,6 +337,7 @@ export default function RootLayout({
                               className="scrollspy-example-item-image img-fluid"
                               alt=""
                               loading="lazy"
+                              fetchPriority="low"
                             />
                           </picture>
                         </div>
@@ -386,6 +389,7 @@ export default function RootLayout({
                               className="img-fluid"
                               alt=""
                               loading="lazy"
+                              fetchPriority="low"
                             />
                           </picture>
                         </div>
@@ -433,6 +437,7 @@ export default function RootLayout({
                           className="scrollspy-example-item-image img-fluid mb-3"
                           alt=""
                           loading="lazy"
+                          fetchPriority="low"
                         />
                       </picture>
 
@@ -493,6 +498,7 @@ export default function RootLayout({
                       className="author-image img-fluid"
                       alt=""
                       loading="lazy"
+                      fetchPriority="low"
                     />
                   </picture>
                 </div>
@@ -539,6 +545,7 @@ export default function RootLayout({
                           className="img-fluid avatar-image"
                           alt=""
                           loading="lazy"
+                          fetchPriority="low"
                         />
                       </picture>
 
@@ -582,6 +589,7 @@ export default function RootLayout({
                           className="img-fluid avatar-image avatar-image-left"
                           alt=""
                           loading="lazy"
+                          fetchPriority="low"
                         />
                       </picture>
 
@@ -625,6 +633,7 @@ export default function RootLayout({
                           className="img-fluid avatar-image"
                           alt=""
                           loading="lazy"
+                          fetchPriority="low"
                         />
                       </picture>
 
@@ -778,11 +787,6 @@ export default function RootLayout({
             </div>
           </section>
         </main>
-        {/* <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/custom.js"></script> */}
       </body>
     </html>
   );

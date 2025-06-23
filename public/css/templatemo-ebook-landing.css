@@ -1049,5 +1049,9 @@ strong {
     font-size: 12px;
     padding: 5px 15px;
   }
+
+  .hero-section {
+    background-image: url('../imgV2/businessman-table/businessman-table-mobile.jpg');
+  }
 }
 

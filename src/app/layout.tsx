@@ -97,7 +97,7 @@ export default function RootLayout({
                         srcSet="imgV2/avatar1/portrait-beautiful-young-woman-standing-grey-wall-52.jpg"
                       />
                       <img
-                        src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
+                        src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.webp"
                         className="img-fluid avatar-image"
                         alt=""
                         loading="eager"
@@ -111,7 +111,7 @@ export default function RootLayout({
                         srcSet="imgV2/avatar2/portrait-young-redhead-bearded-male-52.jpg"
                       />
                       <img
-                        src="images/avatar/portrait-young-redhead-bearded-male.jpg"
+                        src="images/avatar/portrait-young-redhead-bearded-male.webp"
                         className="img-fluid avatar-image avatar-image-left"
                         alt=""
                         loading="eager"
@@ -125,7 +125,7 @@ export default function RootLayout({
                         srcSet="imgV2/avatar3/pretty-blonde-woman-52.jpg"
                       />
                       <img
-                        src="images/avatar/pretty-blonde-woman.jpg"
+                        src="images/avatar/pretty-blonde-woman.webp"
                         className="img-fluid avatar-image avatar-image-left"
                         alt=""
                         loading="eager"
@@ -139,7 +139,7 @@ export default function RootLayout({
                         srcSet="imgV2/avatar4/studio-portrait-emotional-happy-funny-smiling-boyfriend-52.jpg"
                       />
                       <img
-                        src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.jpg"
+                        src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.webp"
                         className="img-fluid avatar-image avatar-image-left"
                         alt=""
                         loading="eager"

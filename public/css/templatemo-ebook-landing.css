@@ -557,7 +557,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
+  background-image: url('../images/businessman-sitting-by-table-cafe.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -626,7 +626,7 @@ strong {
   CUSTOM BLOCK              
 -----------------------------------------*/
 .custom-block {
-  background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
+  background-image: url('../images/businessman-sitting-by-table-cafe.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -770,7 +770,7 @@ strong {
   AUTHOR SECTION            
 -----------------------------------------*/
 .author-section {
-  background-image: url('../images/circle-scatter-haikei.png');
+  background-image: url('../images/circle-scatter-haikei.webp');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left bottom;
@@ -793,7 +793,7 @@ strong {
   DIVIDER SECTION               
 -----------------------------------------*/
 .divider-section {
-  background-image: url('../images/wave-haikei.png');
+  background-image: url('../images/wave-haikei.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1055,15 +1055,15 @@ strong {
   }
 
   .hero-section {
-    background-image: url('../imgV2/businessman-table/businessman-table-mobile.jpg');
+    background-image: url('../imgV2/businessman-table/businessman-table-mobile.webp');
   }
 
   .author-section {
-    background-image: url('../imgV2/circle-scattered/circle-scatter-haikei-500.png');
+    background-image: url('../imgV2/circle-scattered/circle-scatter-haikei-500.webp');
   }
 
   .custom-block {
-    background-image: url('../imgV2/businessman-table/businessman-sitting-416.jpg');
+    background-image: url('../imgV2/businessman-table/businessman-sitting-416.webp');
   }
 }
 

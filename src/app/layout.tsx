@@ -70,11 +70,11 @@ export default function RootLayout({
                   <picture>
                     <source
                       media="(max-width: 500px)"
-                      srcSet="imgV2/online-books/education-online-books-456.png"
+                      srcSet="imgV2/online-books/education-online-books-456.webp"
                     />
 
                     <img
-                      src="images/education-online-books.png"
+                      src="images/education-online-books.webp"
                       className="hero-image img-fluid"
                       alt="education online books"
                       loading="eager"
@@ -94,7 +94,7 @@ export default function RootLayout({
                     <picture>
                       <source
                         media="(max-width: 500px)"
-                        srcSet="imgV2/avatar1/portrait-beautiful-young-woman-standing-grey-wall-52.jpg"
+                        srcSet="imgV2/avatar1/portrait-beautiful-young-woman-standing-grey-wall-52.webp"
                       />
                       <img
                         src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.webp"
@@ -108,7 +108,7 @@ export default function RootLayout({
                     <picture>
                       <source
                         media="(max-width: 500px)"
-                        srcSet="imgV2/avatar2/portrait-young-redhead-bearded-male-52.jpg"
+                        srcSet="imgV2/avatar2/portrait-young-redhead-bearded-male-52.webp"
                       />
                       <img
                         src="images/avatar/portrait-young-redhead-bearded-male.webp"
@@ -122,7 +122,7 @@ export default function RootLayout({
                     <picture>
                       <source
                         media="(max-width: 500px)"
-                        srcSet="imgV2/avatar3/pretty-blonde-woman-52.jpg"
+                        srcSet="imgV2/avatar3/pretty-blonde-woman-52.webp"
                       />
                       <img
                         src="images/avatar/pretty-blonde-woman.webp"
@@ -136,7 +136,7 @@ export default function RootLayout({
                     <picture>
                       <source
                         media="(max-width: 500px)"
-                        srcSet="imgV2/avatar4/studio-portrait-emotional-happy-funny-smiling-boyfriend-52.jpg"
+                        srcSet="imgV2/avatar4/studio-portrait-emotional-happy-funny-smiling-boyfriend-52.webp"
                       />
                       <img
                         src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend.webp"
@@ -173,10 +173,10 @@ export default function RootLayout({
                   <picture>
                     <source
                       media="(max-width: 500px)"
-                      srcSet="imgV2/table-content/tablet-screen-540.jpg"
+                      srcSet="imgV2/table-content/tablet-screen-540.webp"
                     />
                     <img
-                      src="images/tablet-screen-contents.jpg"
+                      src="images/tablet-screen-contents.webp"
                       className="img-fluid"
                       alt=""
                       loading="lazy"
@@ -314,10 +314,10 @@ export default function RootLayout({
                           <picture>
                             <source
                               media="(max-width: 500px)"
-                              srcSet="imgV2/sitting-smiling/smiling-sitting-416.jpg"
+                              srcSet="imgV2/sitting-smiling/smiling-sitting-416.webp"
                             />
                             <img
-                              src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
+                              src="images/portrait-mature-smiling-authoress-sitting-desk.webp"
                               className="scrollspy-example-item-image img-fluid"
                               alt=""
                               loading="lazy"
@@ -330,10 +330,10 @@ export default function RootLayout({
                           <picture>
                             <source
                               media="(max-width: 500px)"
-                              srcSet="imgV2/businessman-table/businessman-sitting-416.jpg"
+                              srcSet="imgV2/businessman-table/businessman-sitting-416.webp"
                             />
                             <img
-                              src="images/businessman-sitting-by-table-cafe.jpg"
+                              src="images/businessman-sitting-by-table-cafe.webp"
                               className="scrollspy-example-item-image img-fluid"
                               alt=""
                               loading="lazy"
@@ -382,10 +382,10 @@ export default function RootLayout({
                           <picture>
                             <source
                               media="(max-width: 500px)"
-                              srcSet="imgV2/table-content/tablet-screen-540.jpg"
+                              srcSet="imgV2/table-content/tablet-screen-540.webp"
                             />
                             <img
-                              src="images/tablet-screen-contents.jpg"
+                              src="images/tablet-screen-contents.webp"
                               className="img-fluid"
                               alt=""
                               loading="lazy"
@@ -430,10 +430,10 @@ export default function RootLayout({
                       <picture>
                         <source
                           media="(max-width: 500px)"
-                          srcSet="imgV2/sitting-smiling/smiling-sitting-416.jpg"
+                          srcSet="imgV2/sitting-smiling/smiling-sitting-416.webp"
                         />
                         <img
-                          src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
+                          src="images/portrait-mature-smiling-authoress-sitting-desk.webp"
                           className="scrollspy-example-item-image img-fluid mb-3"
                           alt=""
                           loading="lazy"
@@ -491,10 +491,10 @@ export default function RootLayout({
                   <picture>
                     <source
                       media="(max-width: 500px)"
-                      srcSet="imgV2/sitting-smiling/smiling-sitting-416.jpg"
+                      srcSet="imgV2/sitting-smiling/smiling-sitting-416.webp"
                     />
                     <img
-                      src="images/portrait-mature-smiling-authoress-sitting-desk.jpg"
+                      src="images/portrait-mature-smiling-authoress-sitting-desk.webp"
                       className="author-image img-fluid"
                       alt=""
                       loading="lazy"
@@ -538,10 +538,10 @@ export default function RootLayout({
                       <picture className="bottom-avatar">
                         <source
                           media="(max-width: 500px)"
-                          srcSet="imgV2/avatar1/portrait-beautiful-young-woman-standing-grey-wall-52.jpg"
+                          srcSet="imgV2/avatar1/portrait-beautiful-young-woman-standing-grey-wall-52.webp"
                         />
                         <img
-                          src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
+                          src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.webp"
                           className="img-fluid avatar-image"
                           alt=""
                           loading="lazy"
@@ -582,10 +582,10 @@ export default function RootLayout({
                       <picture className="bottom-avatar">
                         <source
                           media="(max-width: 500px)"
-                          srcSet="imgV2/avatar2/portrait-young-redhead-bearded-male-52.jpg"
+                          srcSet="imgV2/avatar2/portrait-young-redhead-bearded-male-52.webp"
                         />
                         <img
-                          src="images/avatar/portrait-young-redhead-bearded-male.jpg"
+                          src="images/avatar/portrait-young-redhead-bearded-male.webp"
                           className="img-fluid avatar-image avatar-image-left"
                           alt=""
                           loading="lazy"
@@ -626,10 +626,10 @@ export default function RootLayout({
                       <picture className="bottom-avatar">
                         <source
                           media="(max-width: 500px)"
-                          srcSet="imgV2/avatar3/pretty-blonde-woman-52.jpg"
+                          srcSet="imgV2/avatar3/pretty-blonde-woman-52.webp"
                         />
                         <img
-                          src="images/avatar/pretty-blonde-woman.jpg"
+                          src="images/avatar/pretty-blonde-woman.webp"
                           className="img-fluid avatar-image"
                           alt=""
                           loading="lazy"

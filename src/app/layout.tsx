@@ -101,7 +101,9 @@ export default function RootLayout({
                         className="img-fluid avatar-image"
                         alt=""
                         loading="eager"
-                      fetchPriority="high"
+                        fetchPriority="high"
+                        width={60}
+                        height={60}
                       />
                     </picture>
 
@@ -115,7 +117,9 @@ export default function RootLayout({
                         className="img-fluid avatar-image avatar-image-left"
                         alt=""
                         loading="eager"
-                      fetchPriority="high"
+                        fetchPriority="high"
+                        width={60}
+                        height={60}
                       />
                     </picture>
 
@@ -129,7 +133,9 @@ export default function RootLayout({
                         className="img-fluid avatar-image avatar-image-left"
                         alt=""
                         loading="eager"
-                      fetchPriority="high"
+                        fetchPriority="high"
+                        width={60}
+                        height={60}
                       />
                     </picture>
 
@@ -143,7 +149,9 @@ export default function RootLayout({
                         className="img-fluid avatar-image avatar-image-left"
                         alt=""
                         loading="eager"
-                      fetchPriority="high"
+                        fetchPriority="high"
+                        width={60}
+                        height={60}
                       />
                     </picture>
 

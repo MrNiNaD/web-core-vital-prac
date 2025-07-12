@@ -18,5 +18,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not dead"
+  ]
 }

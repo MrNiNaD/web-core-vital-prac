@@ -443,6 +443,7 @@ strong {
   line-height: 40px;
   text-align: center;
   position: relative;
+  aspect-ratio: 1;
 }
 
 .navbar-brand-icon::after {

@@ -78,6 +78,8 @@ export default function RootLayout({
                       className="hero-image img-fluid"
                       alt="education online books"
                       loading="eager"
+                      width={546}
+                      height={682}
                       fetchPriority="high"
                     />
                   </picture>
@@ -189,6 +191,8 @@ export default function RootLayout({
                       alt=""
                       loading="lazy"
                       fetchPriority="low"
+                      width={546}
+                      height={381}
                     />
                   </picture>
                 </div>
